@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: yuansaas-integration
+
+wx:
+  mp: # ?????
+    app-id: wx2c9f93235d888554
+    secret: 5fe216c10444f4906e32fb336422f11b
+    token: 1234567
+    use-stable-access-token: true # ???????access_token

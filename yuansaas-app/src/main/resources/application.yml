@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: yuanSaaS
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      time: HH:mm:ss
+      date-time: yyyy-MM-dd HH:mm:ss
+  web:
+    resources:
+      add-mappings: false
+
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    deserialization:
+      fail-on-unknown-properties: false
+    default-property-inclusion: non_null
+
+
+server:
+  port: 19171
+  servlet:
+    context-path: /yuanSaaS/api
+
+logging:
+  file:
+    path: ./logs/yuanSaaS
