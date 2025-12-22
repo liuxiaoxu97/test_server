@@ -1,0 +1,53 @@
+{
+  "serverUrl": "http://192.168.3.52:1201",
+  "pathPrefix": "yuanSaaS",
+  "showAuthor": true,
+  "isStrict": true,
+  "allInOne": true,
+  "coverOld": true,
+  "inlineEnum": true,
+  "style": "xt256",
+  "sortByTitle": true,
+  "outPath": "src/main/resources/static/doc",
+  "projectName": "yuanSaaS",
+  "appKey": "",
+  "appToken": "******",
+  "secret": "",
+  "openUrl": "https://soolay.com",
+  "tornaDebug": true,
+  "framework": "spring",
+  "packageFilters": "com.yuansaas.*,com.yuansaas.core.response.ResponseModel",
+  "codePath": "src/main/java",
+  "debugEnvName": "beta",
+  "debugEnvUrl": "http://localhost:19171",
+  "dataDictionaries": [
+    {
+      "title": "枚举",
+      "enumClassName": "com.yuansaas.common.enums.IBaseEnum",
+      "codeField": "name",
+      "descField": "description"
+    }
+  ],
+  "errorCodeDictionaries": [
+    {
+      "title": "错误类",
+      "enumClassName": "com.yuansaas.core.exception.IErrorCodeEnum",
+      "codeField": "code",
+      "descField": "message"
+    }
+  ],
+  "requestHeaders": [
+    {
+      "name": "X-Client-Type",
+      "type": "string",
+      "desc": "客户端类型",
+      "required": true
+    },
+    {
+      "name": "Token",
+      "type": "string",
+      "desc": "access token",
+      "required": true
+    }
+  ]
+}
