@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for yuansaas-parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/maven/repository/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/querydsl/querydsl-apt/5.1.0/querydsl-apt-5.1.0-jakarta.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/querydsl/querydsl-codegen/5.1.0/querydsl-codegen-5.1.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/querydsl/querydsl-core/5.1.0/querydsl-core-5.1.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/querydsl/codegen-utils/5.1.0/codegen-utils-5.1.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/eclipse/jdt/ecj/3.26.0/ecj-3.26.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/io/github/classgraph/classgraph/4.8.146/classgraph-4.8.146.jar" />
+          <entry name="$USER_HOME$/maven/repository/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/datanucleus/javax.jdo/3.2.0-release/javax.jdo-3.2.0-release.jar" />
+          <entry name="$USER_HOME$/maven/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/glassfish/corba/glassfish-corba-omgapi/4.2.2/glassfish-corba-omgapi-4.2.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/springframework/roo/org.springframework.roo.annotations/1.3.2.RELEASE/org.springframework.roo.annotations-1.3.2.RELEASE.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/mongodb/morphia/morphia/1.3.2/morphia-1.3.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/mongodb/mongo-java-driver/3.4.0/mongo-java-driver-3.4.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/hibernate/hibernate-core/5.4.8.Final/hibernate-core-5.4.8.Final.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar" />
+          <entry name="$USER_HOME$/maven/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar" />
+          <entry name="$USER_HOME$/maven/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar" />
+          <entry name="$USER_HOME$/maven/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/hibernate/hibernate-envers/5.4.8.Final/hibernate-envers-5.4.8.Final.jar" />
+          <entry name="$USER_HOME$/maven/repository/com/querydsl/querydsl-core/5.1.0/querydsl-core-5.1.0-tests.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/joda/joda-money/1.0.1/joda-money-1.0.1.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
+          <entry name="$USER_HOME$/maven/repository/junit/junit/4.13.2/junit-4.13.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/easymock/easymock/4.3/easymock-4.3.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar" />
+          <entry name="$USER_HOME$/maven/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar" />
+        </processorPath>
+        <module name="yuansaas-user" />
+        <module name="yuansaas-app" />
+        <module name="yuansaas-core" />
+        <module name="yuansaas-common" />
+        <module name="yuansaas-integration" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yuansaas-app" options="-parameters" />
+      <module name="yuansaas-common" options="-parameters" />
+      <module name="yuansaas-core" options="-parameters" />
+      <module name="yuansaas-integration" options="-parameters" />
+      <module name="yuansaas-user" options="-parameters" />
+    </option>
+  </component>
+</project>

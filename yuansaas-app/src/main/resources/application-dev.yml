@@ -1,0 +1,81 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://120.48.98.242:3306/yuan_saas?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://111.231.141.103:33071/yuanshi_saas?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: yuanshi123@
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 600000
+      connection-timeout: 30000
+      max-lifetime: 1800000
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: true # 性能监控
+        order_updates: true # 优化批量更新
+        order_inserts: true # 优化批量新增
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+#      password: "Ylian123" # 如果有密码填上
+      database: 0
+      timeout: 3000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: 100ms
+
+snowflake: # 雪花算法配置
+  datacenter-id: 1 # 数据中心ID
+  machine-id: 1 # 机器ID
+
+jwt:
+  secret: "lCT3L7aw4cRIM57L4ljZO3esSAv1kUQvsOU1mBRRQCKTUoQuDOfKhfXhaegeMd9I5nxOseaTFCy0ubIfZAI29w=="
+  expiration: 180000000 # 30分钟
+  refresh-expiration: 604800000 # 7天
+
+wx:
+  mp:
+    app-id: wx2c9f93235d888554
+    secret: 5fe216c10444f4906e32fb336422f11b
+    token: SyovlIftOJmL4z0DrkiZeH
+    use-stable-access-token: true # 是否使用稳定的access_token
+    config-storage:
+      type: RedisTemplate
+
+
+ys:
+  app:
+    exception:
+      stack-trace: false # 打印完整的异常堆栈信息,打开后会在响应中返回debug信息
+    logging:
+      request:
+        enable: true # 打印请求日志 默认 true
+        body:
+          enable: true # 打印请求体 默认 false
+          max-size: 10240 # 日志最大长度 10KB
+          include-patterns: "/**" # 匹配的请求路径 多路径用逗号隔开，支持api/**， api/user/info
+      response:
+        enable: true # 打印响应日志 默认 false
+        body:
+          enable: true # 打印响应体 默认 false
+          max-size: 10240 # 日志最大长度 10KB
+          include-patterns: "/**" # 匹配的请求路径 多路径用逗号隔开，支持api/**， api/user/info
+      sensitive:
+        fields: "password,password_confirmation" # 敏感字段不打印日志
+      slow:
+        threshold: 5 # 打印慢请求日志，单位ms
