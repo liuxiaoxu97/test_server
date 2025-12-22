@@ -57,6 +57,7 @@ public class ShopDataServiceImpl implements ShopDataService {
             if (ObjectUtil.isEmpty(byShopCode)) {
                shopDataConfig = shopMapStruct.toShopDataConfig(updateShopDataParam, shop);
             } else {
+                // 更新
 
             }
             shopDataConfigRepository.save(shopDataConfig);
