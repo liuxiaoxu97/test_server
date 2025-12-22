@@ -58,7 +58,7 @@ public class ShopDataServiceImpl implements ShopDataService {
                shopDataConfig = shopMapStruct.toShopDataConfig(updateShopDataParam, shop);
             } else {
                 // 更新
-//                shopDataConfig = shopMapStruct.toShopDataConfig(updateShopDataParam, shop);
+                shopDataConfig = shopMapStruct.toShopDataConfig(updateShopDataParam, shop);
 
             }
             shopDataConfigRepository.save(shopDataConfig);
