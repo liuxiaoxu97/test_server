@@ -27,9 +27,9 @@ spring:
 
   data:
     redis:
-      host: 127.0.0.1
+      host: 120.48.98.242
       port: 6379
-#      password: "Ylian123" # 如果有密码填上
+      password: "yuanshi" # 如果有密码填上
       database: 0
       timeout: 3000ms
       lettuce:
